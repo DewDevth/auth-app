@@ -12,7 +12,10 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { UserlistingComponent } from './userlisting/userlisting.component';
 import { UpdatepopupComponent } from './updatepopup/updatepopup.component';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu';
 @NgModule({
   declarations: [AppComponent, RegisterComponent, LoginComponent, HomeComponent, UserlistingComponent, UpdatepopupComponent],
   imports: [
@@ -22,9 +25,11 @@ import { UpdatepopupComponent } from './updatepopup/updatepopup.component';
     MaterialModule,
     ReactiveFormsModule,
     HttpClientModule,
-    ToastrModule,
+    MatButtonModule,
+    ToastrModule.forRoot(), MatIconModule, MatToolbarModule, MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent],
+
 })
-export class AppModule {}
+export class AppModule { }

@@ -1,3 +1,13 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "1",
+      "name": "admin user",
+      "password": "Dew1234",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    }
+  ]
 }
