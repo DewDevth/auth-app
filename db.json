@@ -8,6 +8,61 @@
       "gender": "male",
       "role": "admin",
       "isactive": true
+    },
+    {
+      "id": "2",
+      "name": "admin2",
+      "password": "1234",
+      "email": "admin2@gmail.com",
+      "gender": "male",
+      "role": "quality",
+      "isactive": true
+    },
+    {
+      "id": "3",
+      "name": "admin3",
+      "password": "1234",
+      "email": "admin3@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "4",
+      "name": "user1",
+      "password": "1234",
+      "email": "1@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "5",
+      "name": "user2",
+      "password": "1234",
+      "email": "2@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "test1",
+      "name": "test",
+      "password": "Dew12345",
+      "email": "test1@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin"
+    },
+    {
+      "code": "user",
+      "name": "User"
     }
   ]
 }

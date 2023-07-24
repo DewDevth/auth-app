@@ -323,6 +323,7 @@
     <mat-icon>home</mat-icon>
   </a>
   <a
+    *ngIf="isadminuser"
     routerLink="/user"
     mat-icon-button
     class="example-icon favorite-icon"
@@ -333,7 +334,7 @@
   <span class="example-spacer"></span>
 
   <a
-    routerLink="/logout"
+    routerLink="/login"
     mat-icon-button
     class="example-icon"
     aria-label="Example icon-button with share icon"
